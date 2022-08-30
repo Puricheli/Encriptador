@@ -1,0 +1,206 @@
+
+body{
+
+    background: #97c1dd;
+
+}
+
+header{
+
+    width: 100%;
+    height: 100px;
+
+}
+
+.logo-alura{
+
+    margin: 40px 0 0 84px;
+
+}
+
+main{
+
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+section{
+
+    width: 40%;
+    height: 100%;
+    background: #CCCCCC;
+    display: inline-block;
+
+
+}
+
+.bloque1{
+
+    width: 1000px;
+    background: #97c1dd;
+
+}
+
+.texto-ingresado{
+
+    width: 680px;
+    height: 288px;
+    margin: 168px 520px 0 240px;
+    resize: none;
+    font-size: 32px;
+    background: #97c1dd;
+    border-color:#97c1dd;
+}
+
+.texto-ingresado:focus{
+
+    outline: none;
+
+}
+
+.minusculas{
+
+    margin: 395px 0 0 380px;
+
+}
+
+.caja-botones{
+
+    text-align: center;
+
+}
+
+.boton-encriptar{
+
+    width: 328px;
+    margin: 16px 24px 72px 240px;
+    padding: 24px;
+    color:white;
+    font-size: 16px;
+    background: #0A3871;
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.boton-desencriptar{
+
+    width: 328px;
+    padding: 24px;
+    color:#0A3871;
+    font-size: 16px;
+    background: white;
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.bloque2{
+
+    width: 400px;
+    height: 944px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 40px 40px 40px 40px;
+}
+
+
+.caja-resultado{
+
+    margin: 32px 32px 32px 32px;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    overflow-wrap: break-word; 
+    
+
+}
+
+.mensaje-resultado{
+
+    font-weight: bold;
+    padding: 0 0 20px 0;
+
+}
+
+.mostrar-resultado{
+
+    width: 336px;
+    height: 600px;
+    resize: none;
+    border:none;
+    background-image: url(imagenes/Muñeco.jpg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+.mostrar-resultado:focus{
+
+   outline: none;
+
+}
+
+.caja-noEncontrado{
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+.mensaje-noEncontrado{
+
+    font-size: 24px;
+    font-weight: 700;
+    color: none;
+    display: block;
+
+}
+
+.caja-ingreseTexto{
+
+    text-align: center;
+    padding: 15px;
+
+}
+
+.ingreseTexto{
+
+    font-size: 16px;
+    color: none;
+    display: block;
+
+}
+
+.boton-copiar{
+
+    width: 336px;
+    margin: 32px 32px 32px 32px;
+    padding: 24px;
+    color:#0A3871;
+    font-size: 16px;
+    background: white;
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    
+}
+
+
+footer{
+
+    width: 100%;
+    height: 50px;
+    background: #97c1dd;
+    text-align: center;
+
+}
+
+.pie-pagina{
+    
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head> 
+
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-encriptador.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <img src="imagenes/Logo.png" alt="Logo" class="logo-alura">
+
+        </header>
+
+        <main>
+
+            <section class="bloque1">
+
+                <textarea placeholder="Ingrese texto aquí" class="texto-ingresado"></textarea>
+
+                <p class="minusculas">! Solo letras minúsculas y sin acento</p>
+
+                <div class="caja-botones">
+
+                    <button class="boton-encriptar">Encriptar</button>
+
+                    <button class="boton-desencriptar">Desencriptar</button>
+
+                </div>
+                
+            </section>
+
+
+            <section class="bloque2">
+
+                <div class="caja-resultado">
+
+                <h1 class="mensaje-resultado">Mensaje Encriptado:</h1>
+
+                <textarea class="mostrar-resultado" placeholder="Resultado..."></textarea>
+
+                </div>
+
+                <div class="caja-noEncontrado">
+
+                    <h2 class="mensaje-noEncontrado">Ningún mensaje fue encontrado</h2>
+
+                </div>
+
+                <div class="caja-ingreseTexto">
+
+                    <p class="ingreseTexto">Ingrese texto que desea encriptar o desencriptar</p>
+
+                </div>
+
+                <button class="boton-copiar">Copiar</button>
+
+                
+            </section>
+
+        </main>
+
+        <footer>
+
+            <p class="pie-pagina">Programando siempre con dedicación! &#129299;</p> 
+
+        </footer>
+        
+        <script src="encriptador.js"></script>
+    </body>
+
+
+</html>
